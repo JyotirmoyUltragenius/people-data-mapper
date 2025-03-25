@@ -96,7 +96,7 @@ const ColumnMapping: React.FC<ColumnMappingProps> = ({
                       <SelectValue placeholder="Select" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">Ignore</SelectItem>
+                      <SelectItem value="ignore">Ignore</SelectItem>
                       {Object.entries(standardColumns).map(([key, label]) => (
                         <SelectItem key={key} value={key}>
                           {label}
